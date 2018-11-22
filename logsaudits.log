@@ -1,0 +1,16 @@
+	[18/Nov/22 20:53:54][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/22 20:55:44][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Test Project 'ArtMarVal' was created
+	[18/Nov/22 20:56:30][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Password of user 'admin' was saved
+	[18/Nov/22 20:56:43][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		User 'admin' was saved
+	[18/Nov/22 20:57:02][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Logout of 'admin'
+	[18/Nov/22 20:57:08][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/22 21:01:26][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Test Project 'ArtMarVal' - Test Plan 'Plan de Pruebas AMV' was created
+	[18/Nov/22 21:05:01][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Test Project 'ArtMarVal' - Test Plan 'Plan de Pruebas AMV' - Build 'Build 1' was created

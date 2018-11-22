@@ -1,0 +1,6 @@
+Install directory should be removed!
+Check following parameters of email feature:
+tl_admin_email
+from_email
+return_path_email
+smtp_host
