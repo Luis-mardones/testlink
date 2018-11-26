@@ -1,4 +1,3 @@
-Install directory should be removed!
 Check following parameters of email feature:
 tl_admin_email
 from_email

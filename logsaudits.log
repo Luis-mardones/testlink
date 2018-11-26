@@ -304,3 +304,101 @@
 		Keyword 'Critico' was unassigned from Test Case 'Navegador_Lista'
 	[18/Nov/23 05:00:34][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
 		Keyword 'media' was unassigned from Test Case 'Navegador_Lista'
+	[18/Nov/23 05:19:56][AUDIT][ssu994jf6je288n87hv8fcvvrj][GUI - Test Project ID : 1]
+		Logout of 'admin'
+	[18/Nov/23 18:14:14][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/23 18:52:55][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Direccion'
+	[18/Nov/23 18:52:55][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Critico' was unassigned from Test Case 'Direccion'
+	[18/Nov/23 18:52:55][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Direccion'
+	[18/Nov/23 18:58:40][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Galeria_imagen'
+	[18/Nov/23 18:58:40][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Galeria_imagen'
+	[18/Nov/23 18:58:40][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Galeria_imagen'
+	[18/Nov/23 19:43:40][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Informacion_producto'
+	[18/Nov/23 19:43:41][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Informacion_producto'
+	[18/Nov/23 19:43:41][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Informacion_producto'
+	[18/Nov/23 19:48:51][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Carro_deshabilitado'
+	[18/Nov/23 19:48:51][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Carro_deshabilitado'
+	[18/Nov/23 19:48:51][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Carro_deshabilitado'
+	[18/Nov/23 19:51:43][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Descripcion_Detalles'
+	[18/Nov/23 19:51:43][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Descripcion_Detalles'
+	[18/Nov/23 19:51:43][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Descripcion_Detalles'
+	[18/Nov/23 20:06:55][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Ingreso_Sin_Cuenta'
+	[18/Nov/23 20:06:55][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Ingreso_Sin_Cuenta'
+	[18/Nov/23 20:06:55][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Ingreso_Sin_Cuenta'
+	[18/Nov/23 20:13:19][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Crear_Cuenta'
+	[18/Nov/23 20:13:19][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Crear_Cuenta'
+	[18/Nov/23 20:13:19][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Crear_Cuenta'
+	[18/Nov/23 21:17:24][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Ingreso_Cuenta'
+	[18/Nov/23 21:17:24][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Ingreso_Cuenta'
+	[18/Nov/23 21:17:24][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Ingreso_Cuenta'
+	[18/Nov/23 21:25:13][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was unassigned from Test Case 'Cambio_Contraseña'
+	[18/Nov/23 21:25:13][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'baja' was unassigned from Test Case 'Cambio_Contraseña'
+	[18/Nov/23 21:25:13][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was unassigned from Test Case 'Cambio_Contraseña'
+	[18/Nov/23 22:02:02][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-25:Envio' Version '1' 
+	[18/Nov/23 22:05:44][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-26:Aviso_legal' Version '1' 
+	[18/Nov/23 22:08:54][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-27:Terminos_Condiciones' Version '1' 
+	[18/Nov/23 22:17:48][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-28:Sobre_Nosotros' Version '1' 
+	[18/Nov/23 22:21:23][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-29:Pago_Seguro' Version '1' 
+	[18/Nov/23 22:30:38][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-30:Contacto' Version '1' 
+	[18/Nov/23 22:43:09][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'media' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-31:Mapa' Version '1' 
+	[18/Nov/23 22:51:56][AUDIT][biil210425i0k39jcut41klsrk][GUI - Test Project ID : 1]
+		Keyword 'Critico' was assigned to the Test Case '/ArtMarVal/AMV-Empresa/AMV-32:Tiendas' Version '1' 
+	[18/Nov/23 23:08:38][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/23 23:12:55][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Critico' was assigned to the Test Case '/ArtMarVal/AMV-SuCuenta/AMV-33:Informacion_Personal' Version '1' 
+	[18/Nov/23 23:43:29][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-SuCuenta/AMV-34:Pedidos' Version '1' 
+	[18/Nov/24 00:10:36][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-SuCuenta/AMV-35:Facturas' Version '1' 
+	[18/Nov/24 00:26:15][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-SuCuenta/AMV-36:Direcciones' Version '1' 
+	[18/Nov/24 01:26:27][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-FooterProductos/AMV-37:Ofertas' Version '1' 
+	[18/Nov/24 01:43:38][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-FooterProductos/AMV-38:Novedades' Version '1' 
+	[18/Nov/24 01:45:33][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Keyword 'Alto' was assigned to the Test Case '/ArtMarVal/AMV-FooterProductos/AMV-39:Lo_mas_vendido' Version '1' 
+	[18/Nov/24 18:09:53][AUDIT][7k24j14j1kbpl19agbp0lf9nmr][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/26 02:51:04][AUDIT][ra9f23gi5071gadt3561m2473v][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/26 03:21:07][AUDIT][d4b6r2963hclr8ql40l36jdg98][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded
+	[18/Nov/26 03:34:22][AUDIT][6f2hal0n7ir6eu2k19ikverk07][GUI - Test Project ID : 1]
+		Login for 'admin' from '::1' succeeded

@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="3" name="AMV-Main" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<p>Funcionalidades pagina principal</p>
+]]></details> 
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+<keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+<keyword name="media"><notes><![CDATA[
+nivel de criticidad media
+]]></notes></keyword>
+<keyword name="baja"><notes><![CDATA[
+nivel de criticidad baja
+]]></notes></keyword>
+</keywords>
+<testcase internalid="7" name="Ingreso_pagina">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<fullexternalid><![CDATA[AMV-1]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida el ingreso a la pagina principal del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa al sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina carga correctamente con la direccion url:</p>
+
+<p>http://localhost/ArtMarVal/</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario verifica los componentes de la pagina</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina debe contener lo siguiente:</p>
+
+<p>Cabecera:</p>
+
+<ul>
+	<li>Link Contacte con nosotros</li>
+	<li>Link Iniciar Sesion</li>
+	<li>Barra de Busqueda</li>
+	<li>Menus
+	<ul>
+		<li>Figuras de Madera</li>
+		<li>Cuadros y Pinturas</li>
+		<li>Otros</li>
+	</ul>
+	</li>
+	<li>Logo de la tienda</li>
+</ul>
+
+<p>Cuerpo:</p>
+
+<ul>
+	<li>Scroll de imagenes de portada</li>
+	<li>Galeria de productos destacados</li>
+	<li>Link Todos los Productos</li>
+</ul>
+
+<p>Pie:</p>
+
+<ul>
+	<li>Barra subscripcion</li>
+	<li>Links Productos
+	<ul>
+		<li>Ofertas</li>
+		<li>Novedades</li>
+		<li>Los Mas Vendidos</li>
+	</ul>
+	</li>
+	<li>Links Nuestra Empresa
+	<ul>
+		<li>Envio</li>
+		<li>Aviso Legal</li>
+		<li>T&eacute;rminos y condiciones</li>
+		<li>Sobre nosotros</li>
+		<li>Pago seguro</li>
+		<li>Contacte con nosotros</li>
+		<li>Mapa del sitio</li>
+		<li>Tiendas</li>
+	</ul>
+	</li>
+	<li>Links Su Cuenta
+	<ul>
+		<li>Informaci&oacute;n personal</li>
+		<li>Pedidos</li>
+		<li>Facturas por abono</li>
+		<li>Direcciones</li>
+	</ul>
+	</li>
+	<li>Informacion de la tienda
+	<ul>
+		<li>ArtMarVal<br />
+		Chile&nbsp;<br />
+		Env&iacute;enos un correo electr&oacute;nico:&nbsp;<a href="mailto:luis.mardones2017@twk.cl">luis.mardones2017@twk.cl</a></li>
+	</ul>
+	</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="9" name="Titulo_Favicon">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<fullexternalid><![CDATA[AMV-2]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se verifica que el titulo de la pagina y el favicon corresponden</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida que el titulo del sitio este correcto</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El titulo del sitio es: ArtMarVal</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario valida que el favicon corresponde</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio contiene el favicon correspondiente a ArtMarVal</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="11" name="Logo">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<fullexternalid><![CDATA[AMV-3]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se verifica que el logo del sitio es correcto</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario verifica que el logo existe dentro de la pagina y corresponde a esta</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El logo del sitio existe como : Artesanias MarVal</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en el logo del sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema redirige el sitio a la pagina principal de este</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="13" name="Menus">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<fullexternalid><![CDATA[AMV-4]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad de los menus del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario posiciona el mouse sobre alguno de los menus</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El link del menu cambiara de color</li>
+	<li>El cursor cambiara al modo de seleccion</li>
+	<li>En el caso de que el menu tenga subcategorias estas apareceran en un recuadro debajo del menu seleccionado</li>
+	<li>Si se posiciona el mouse sobre las subcategorias, todas las reacciones del menu se aplicaran a ellas</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en uno de los menu o subcategorias</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio recarga a la pagina con la galeria de productos relacionados al menu o Subcategoria</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="15" name="Imagen_Portada">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<fullexternalid><![CDATA[AMV-5]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se verifica la existencia y funcionalidad de la imagen de portada</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la existencia del carrusel de imagenes en el sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio contiene el carrusel de imagenes</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en una de las imagenes mostradas</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>La imagen corresponde a uno de los menu principales del sitio</li>
+	<li>El sitio es redirigido a la pagina del menu correspondiente</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="media"><notes><![CDATA[
+nivel de criticidad media
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="17" name="Galeria_Productos">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<fullexternalid><![CDATA[AMV-6]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la galeria de productos en la pagina principal del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la galeria de productos en el sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>La galeria debe contener 8 productos</li>
+	<li>Los productos consisten en:
+	<ul>
+		<li>una imagen del producto</li>
+		<li>el nombre del producto</li>
+		<li>el precio del producto en pesos chilenos</li>
+	</ul>
+	</li>
+	<li>Bajo la galeria debe encontrarse el link a la lista completa de productos</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario posiciona el mouse sobre uno de los productos</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>una opcion de vista rapida aparece</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario selecciona vista rapida</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>un pop-up aparece en la pagina el cual contiene esta informacion:</p>
+
+<ul>
+	<li>Imagen principal&nbsp;del producto</li>
+	<li>selector de imagenes&nbsp;</li>
+	<li>nombre del producto</li>
+	<li>precio del producto en pesos chilenos</li>
+	<li>detalles del producto</li>
+	<li>detalle de impuesto</li>
+	<li>selector de cantidad de producto</li>
+	<li>boton agregar al carro de compra(deshabilitado)</li>
+	<li>aviso de disponibilidad del producto</li>
+	<li>opcion de compartir producto en redes sociales(deshabilitado)</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en el nombre o imagen de un producto</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio redirige a la pagina del producto</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click al link Todos los productos</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio redirige a la galeria con todos los productos disponibles sin aplicar filtro alguno</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="19" name="Subscripcion">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<fullexternalid><![CDATA[AMV-7]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del modulo de subscripcion</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida que exista el modulo de subscripcion en la pagina principal</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El modulo de subscripcion aparece en la pagina debajo de la galeria de productos</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario se subscribe con un correo valido</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El usuario es subscrito al sistema de notificaciones de la tienda</li>
+	<li>el siguiente mensaje aparece en pantalla:&nbsp;Se ha suscrito correctamente a este bolet&iacute;n de noticias.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa algun valor que no cumpla la estructura de correo basica: usuario@dominio</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El usuario falla al subscribirse al sistema de notificaciones de la tienda</li>
+	<li>El siguiente mensaje aparece en pantalla:&nbsp;Direcci&oacute;n de correo electr&oacute;nico no v&aacute;lida.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa un correo ya subscrito al servicio de notificaciones</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El usuario falla al subscribirse al sistema de notificaciones de la tienda</li>
+	<li>El siguiente mensaje aparece en pantalla:&nbsp;Esta direcci&oacute;n de correo electr&oacute;nico ya est&aacute; registrada.</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="baja"><notes><![CDATA[
+nivel de criticidad baja
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="21" name="Footer">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<fullexternalid><![CDATA[AMV-8]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se validan los componentes del footer del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar en la pagina principal del sitio</p>
+
+<p>-AMV-1:Ingreso_pagina debe haber pasado</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes del footer</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El footer del sitio contiene los siguientes componentes con sus links respectivos:</p>
+
+<ul>
+	<li>Productos
+	<ul>
+		<li>Ofertas</li>
+		<li>Novedades</li>
+		<li>Los m&aacute;s vendidos</li>
+	</ul>
+	</li>
+	<li>Nuestra Empresa
+	<ul>
+		<li>Env&iacute;o</li>
+		<li>Aviso legal</li>
+		<li>T&eacute;rminos y condiciones</li>
+		<li>Sobre nosotros</li>
+		<li>Pago seguro</li>
+		<li>Contacte con nosotros</li>
+		<li>Mapa del sitio</li>
+		<li>Tiendas</li>
+	</ul>
+	</li>
+	<li>Su cuenta
+	<ul>
+		<li>Informaci&oacute;n personal</li>
+		<li>Pedidos</li>
+		<li>Facturas por abono</li>
+		<li>Direcciones</li>
+	</ul>
+	</li>
+	<li>Informacion de la tienda
+	<ul>
+		<li>Nombre del sitio</li>
+		<li>Ubicacion</li>
+		<li>Correo de contacto</li>
+	</ul>
+	</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite><testsuite id="4" name="AMV-Lista" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[<p>Funcionalidad de la lista de productos</p>
+]]></details> 
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+<keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+<keyword name="media"><notes><![CDATA[
+nivel de criticidad media
+]]></notes></keyword>
+<keyword name="baja"><notes><![CDATA[
+nivel de criticidad baja
+]]></notes></keyword>
+</keywords>
+<testcase internalid="23" name="Filtro_Menus">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<fullexternalid><![CDATA[AMV-9]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida los filtros relacionados a los menus y submenus del sitio en la galeria de productos</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida el panel de filtro por menu</p>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Al acceder por el link de Todos los productos, el sistema redirige a la galeria con todos los productos disponibles, y en el panel de filtro&nbsp;debe&nbsp;aparecer&nbsp;los menu principales con sus subcategorias relacionadas:&nbsp;
+	<ul>
+		<li>Figuras de madera
+		<ul>
+			<li>Figuras Colgantes</li>
+			<li>Figuras de Pared</li>
+			<li>Figuras de Mesa</li>
+		</ul>
+		</li>
+		<li>Cuadros y Pinturas
+		<ul>
+			<li>Mosaicos</li>
+			<li>Perchas</li>
+			<li>Pinturas</li>
+		</ul>
+		</li>
+		<li>Otros</li>
+	</ul>
+	</li>
+	<li>Al acceder con uno de los menu principales, el sistema redirige a la galeria de productos relacionada, y en el panel de filtros solo apareceran&nbsp;los filtros por subcategoria ,solo si es que tiene alguna</li>
+	<li>Al acceder con subcategoria, el sistema redirige a la galeria de productos relacionada, y&nbsp;el panel de filtro aparece vacio</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en uno de los menu principales dentro del filtro</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El sistema redirige la pagina a la galeria de producto relacionados al menu principal</li>
+	<li>Los demas menus desapareceran del panel de filtros</li>
+	<li>En el panel de filtro solo quedaran las subcategorias relacionadas</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en una de las subcategorias</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El sistema redirige la pagina a la galeria de producto relacionada a la subcategoria</li>
+	<li>El panel de filtro aparece vacio</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="25" name="Filtro_Categoria">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<fullexternalid><![CDATA[AMV-10]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del filtro por categoria</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los filtros por categoria en el sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Al ingresar por el link todos los productos, el sitio redirige a la galeria de todos los productos del sitio, el cual contiene los siguientes filtros por categoria:
+	<ul>
+		<li>Figuras de madera</li>
+		<li>Cuadros y pinturas</li>
+		<li>Otros</li>
+	</ul>
+	</li>
+	<li>Al acceder al sitio por medio del menu principal o subcategoria los filtros deben aparecer vacios</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario selecciona uno de los filtros</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema recarga la pagina mostrando solos los productos que cumplan con ese filtro</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="27" name="Filtro_Precio">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<fullexternalid><![CDATA[AMV-11]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del filtro por&nbsp;precio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los filtros por precio en el sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Al ingresar por el link todos los productos, el sitio redirige a la galeria de todos los productos del sitio, el cual contiene los siguientes filtros por precio:
+	<ul>
+		<li>420,00&nbsp;CLP - 500,00&nbsp;CLP&nbsp;</li>
+		<li>840,00&nbsp;CLP - 1.000,00&nbsp;CLP&nbsp;</li>
+		<li>1.680,00&nbsp;CLP - 2.000,00&nbsp;CLP</li>
+		<li>2.100,00&nbsp;CLP - 2.500,00&nbsp;CLP</li>
+		<li>2.521,00&nbsp;CLP - 3.000,00&nbsp;CLP</li>
+		<li>4.201,00&nbsp;CLP - 5.000,00&nbsp;CLP</li>
+		<li>6.302,00&nbsp;CLP - 8.000,00&nbsp;CLP</li>
+		<li>8.403,00&nbsp;CLP - 10.000,00&nbsp;CLP</li>
+		<li>12.605,00&nbsp;CLP - 15.000,00&nbsp;CLP</li>
+	</ul>
+	</li>
+	<li>Al acceder al sitio por medio del menu principal o subcategoria los filtros deben aparecer vacios</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario selecciona uno de los filtros</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema recarga la pagina mostrando solos los productos que cumplan con ese filtro</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="29" name="Titulo_Logo">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<fullexternalid><![CDATA[AMV-12]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se validan los componentes titulo e imagen de portada de la lista de productos</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida el titulo de la lista</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El titulo de la lista debe ser igual al link del menu o subcategoria&nbsp;del cual se accedio, y en el caso de utilizar el link todos los productos, el titulo debe ser Inicio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la imagen de portada</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La imagen de portada debe corresponder a uno de los productos relacionados al menu o subcategoria, y en el caso de utilizar el link todos los productos, no debe haber imagen de portada</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="31" name="Orden_por">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<fullexternalid><![CDATA[AMV-13]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del selector Orden por, y su componentes</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la existencia del selector</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El selector aparece sobre la galeria de productos y debajo del titulo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en el selector</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Este se despliega mostrando las siguientes opciones:</p>
+
+<ul>
+	<li>Relevancia</li>
+	<li>Nombre A a Z</li>
+	<li>Nombre Z a A</li>
+	<li>Precio: de mas Bajo a mas Alto</li>
+	<li>Precio, de mas Alto a mas&nbsp; Bajo</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario selecciona una de las opciones</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema recarga la pagina mostrando los productos en el orden correspondiente al tipo de orden seleccionado</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="33" name="Cantidad_lista">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<fullexternalid><![CDATA[AMV-14]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la cantidad de productos presentes en la pagina a comparacion del total de la pagina por el filtro seleccionado</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los contadores de productos en el sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>Sobre la galeria de productos aparece la cantidad de productos relacionados al filtro seleccionado(o al total del sitio si no se eligio filtro alguno)</li>
+	<li>Debajo de la galeria de productos aparecera el contador de productos visibles en la pagina junto al total del filtro seleccionado</li>
+	<li>El contador de productos utilizando filtros no puede ser mayor al total de productos dentro del sitio</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="35" name="Navegador_Lista">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<fullexternalid><![CDATA[AMV-15]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del cambio de pagina en la galeria de productos</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la lista de productos seleccionando alguno de los menu, subcategorias o desde el link Todos los productos en el sitio principal</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida que exista el navegador de paginas</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El navegador de paginas aparece solo cuando la cantidad de productos por filtro o en su totalidad supera los 12 productos</li>
+	<li>Cuando carga por primera vez la pagina la opcion pagina Anterior esta deshabilitada</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario utiliza la opcion pagina Siguiente</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio redirige a la siguiente pagina de la galeria de productos, indicado con el numero de pagina resaltado en un color celeste a contraste del negro de los otros numero de pagina</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en un numero de pagina especifico</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio redirige a la&nbsp;pagina seleccionada de la galeria de productos, indicado con el numero de pagina resaltado en un color celeste a contraste del negro de los otros numero de pagina</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en la ultima pagina disponible</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>El sitio redirige a la&nbsp;pagina seleccionada de la galeria de productos, indicado con el numero de pagina resaltado en un color celeste a contraste del negro de los otros numero de pagina</li>
+	<li>El boton siguiente esta deshabilitado</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite><testsuite id="5" name="AMV-Productos" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[<p>Funcionalidad de pagina de productos</p>
+]]></details> 
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+<keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+<keyword name="media"><notes><![CDATA[
+nivel de criticidad media
+]]></notes></keyword>
+<keyword name="baja"><notes><![CDATA[
+nivel de criticidad baja
+]]></notes></keyword>
+</keywords>
+<testcase internalid="37" name="Direccion">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<fullexternalid><![CDATA[AMV-16]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la ruta de ingreso a un producto</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de un producto desde la pagina principal, la galeria con todos los productos, o por medio de uno de los menu o subcategorias</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la ruta del producto</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La ruta aparece sobre la imagen principal del producto y contiene lo siguiente:&nbsp;</p>
+
+<ul>
+	<li>Al entrar desde la pagina principal o la galeria de todos los productos: Inicio/NombreProducto</li>
+	<li>Al entrar desde menu o subcategoria: Inicio/Menu/Subcategoria/NombreProducto</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en alguno de los link de la ruta</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio redirige a la galeria de imagenes correspondiente al filtro seleccionado, o en el caso de Inicio, a la pagina principal del sitio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="39" name="Galeria_imagen">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<fullexternalid><![CDATA[AMV-17]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida&nbsp;la galeria de imagenes de los productos</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de un producto desde la pagina principal, la galeria con todos los productos, o por medio de uno de los menu o subcategorias</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario verifica la galeria de imagenes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>la galeria de imagenes esta compuesta por:</p>
+
+<ul>
+	<li>Una imagen principal que corresponde a la predeterminada para el producto</li>
+	<li>Un selector de imagenes</li>
+	<li>Botones direccionales para mover el&nbsp;carrusel de imagenes</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario selecciona una de la imagenes del carrusel de imagenes</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sitio muestra la imagen seleccionada como imagen principal</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="41" name="Informacion_producto">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<fullexternalid><![CDATA[AMV-18]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida los componentes de la descripcion del producto</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de un producto desde la pagina principal, la galeria con todos los productos, o por medio de uno de los menu o subcategorias</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la descripcion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La descripcion del producto contiene:</p>
+
+<ul>
+	<li>El nombre del producto como titulo</li>
+	<li>El precio del producto en Pesos Chilenos</li>
+	<li>La notificacion impuestos incluidos</li>
+	<li>El nombre del producto como detalle</li>
+	<li>El selector de cantidad de productos a comprar</li>
+	<li>El boton A&ntilde;adir al carro de compra</li>
+	<li>La notificacion de disponibilidad del producto</li>
+	<li>Botones para compartir el producto en redes sociales(Deshabilitado)</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="43" name="Carro_deshabilitado">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<fullexternalid><![CDATA[AMV-19]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida el estado de deshabilitado del boton de a&ntilde;adir a carro de compra</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de un producto desde la pagina principal, la galeria con todos los productos, o por medio de uno de los menu o subcategorias</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en el boton A&ntilde;adir al Carrito</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>No se ejecuta accion alguna por parte del sistema</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="45" name="Descripcion_Detalles">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<fullexternalid><![CDATA[AMV-20]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la seccion Descripcion y Detalles del Producto en el sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de un producto desde la pagina principal, la galeria con todos los productos, o por medio de uno de los menu o subcategorias</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la seccion Descripcion en la pagina de producto</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La seccion descripcion esta seleccionada predeterminadamente y muestra una descripcion breve del producto</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en la seccion Detalles del producto</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema cambia de la pesta&ntilde;a Descripcion a la Detalles del Producto.</p>
+
+<p>En esta se muestra el Stock actual del producto</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite><testsuite id="6" name="AMV-Login/Signin" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[<p>Funcionalidad del registro de usuarios</p>
+]]></details> 
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+<keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+<keyword name="media"><notes><![CDATA[
+nivel de criticidad media
+]]></notes></keyword>
+<keyword name="baja"><notes><![CDATA[
+nivel de criticidad baja
+]]></notes></keyword>
+</keywords>
+<testcase internalid="47" name="Ingreso_Sin_Cuenta">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<fullexternalid><![CDATA[AMV-21]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del login sin utilizar cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina del login por medio del link Inicia Sesion en la cabecera del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa un correo existente pero sin registrar en el sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El mensaje&nbsp;Error de autenticaci&oacute;n. aparece en pantalla</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa un valor que no cumpla con el formato de correo: usuario@server.dominio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El mensaje&nbsp;Formato no v&aacute;lido. aparece en pantalla</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="49" name="Crear_Cuenta">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[22]]></externalid>
+	<fullexternalid><![CDATA[AMV-22]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la creacion de cuentas</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina del login por medio del link Inicia Sesion en la cabecera del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en el&nbsp; link&nbsp;&iquest;No tiene una cuenta? Cree una aqu&iacute;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema redirige a la pagina de creacion de cuentas</p>
+
+<p>La pagina esta compuesta por lo siguiente:</p>
+
+<ul>
+	<li>Titulo Crear Cuenta</li>
+	<li>Formulario de creacion de cuenta
+	<ul>
+		<li>Link de inicio de Sesion</li>
+		<li>Selector de genero</li>
+		<li>Ingreso de nombre</li>
+		<li>Ingreso de apellido</li>
+		<li>Ingreso Correo</li>
+		<li>Ingreso Contrase&ntilde;a</li>
+		<li>Boton mostrar contrase&ntilde;a</li>
+		<li>Ingreso fecha de nacimiento con formato DD/MM/YYYY (Opcional)</li>
+		<li>Opcion notificaciones de socios</li>
+		<li>Opcion notificaciones de tienda</li>
+		<li>Boton Guardar</li>
+	</ul>
+	</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en guardar sin llenar los campos requeridos</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Advertencia Completa este Campo Aparece debajo de Ingreso Nombre</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario completa el campo nombre y hace click en guardar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Advertencia Completa este Campo Aparece debajo de Ingreso Apellido</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>El usuario completa el campo apellido y hace click en guardar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Advertencia Completa este Campo Aparece debajo de Ingreso Correo</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>El usuario completa el campo correo y hace click en guardar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Advertencia Completa este Campo Aparece debajo de Ingreso Contrase&ntilde;a</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>El usuario completa el campo contrase&ntilde;a&nbsp;y hace click en guardar</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>Si la contrase&ntilde;a no contiene mas de 4 caracteres la advertencia Haz coincidir el formato solicitado aparece, y no se puede continuar el llenado del formulario</li>
+	<li>Al cumplir con la regla de 5 caracteres minimo se validaran todos los campos
+	<ul>
+		<li>En el caso de que el correo no cumpla con el formato de correo Usuario@server.dominio el mensaje de error&nbsp;Formato no v&aacute;lido. aparecera debajo del Ingreso correo</li>
+		<li>En el caso que no haya error en el correo, el sistema redigira el sitio a la pagina principal con el usuario conectado predeterminadamente</li>
+		<li>En el caso de que el correo ya este registrado el mensaje de alerta&nbsp;La direcci&oacute;n de correo electr&oacute;nico &quot;usuario@server.dominio&quot; ya est&aacute; en uso, por favor, elija otra para iniciar sesi&oacute;n o registrarse, aparecera en pantalla</li>
+	</ul>
+	</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="51" name="Ingreso_Cuenta">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<fullexternalid><![CDATA[AMV-23]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la funcionalidad del ingreso de cuenta</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina del login por medio del link Inicia Sesion en la cabecera del sitio</p>
+
+<p>-Debe utilizar una cuenta existente</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa un correo y contrase&ntilde;a validos y existentes dentro del sitio y hace click en el boton Iniciar Sesion</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema redirige el sitio a la pagina Mi Cuenta la cual se compone de la siguiente manera:</p>
+
+<ul>
+	<li>Titulo Su cuenta</li>
+	<li>Boton Informacion</li>
+	<li>Boton Direcciones/A&ntilde;adir Primera Direccion(Cuenta Nueva)</li>
+	<li>Boton Historial y Detalles de mis Pedidos</li>
+	<li>Boton Facturas por Abono</li>
+	<li>Link Cerrar Sesion</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="53" name="Cambio_Contraseña">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[24]]></externalid>
+	<fullexternalid><![CDATA[AMV-24]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Valida la opcion Cambio de contrase&ntilde;a</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina del login por medio del link Inicia Sesion en la cabecera del sitio</p>
+
+<p>-Debe tener una cuenta valida en el sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario hace click en el link &iquest;Olvido su Contrase&ntilde;a?</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema redirige a la pagina de recuperacion de contrase&ntilde;a, esta se compone por:</p>
+
+<ul>
+	<li>Titulo &iquest;Olvido su Contrase&ntilde;a?</li>
+	<li>Formulario de recuperacion de contrase&ntilde;a</li>
+	<li>Ingreso correo de cuenta</li>
+	<li>Boton de recuperacion de contrase&ntilde;a</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa un correo valido y hace click en el boton de recuperacion de contrase&ntilde;a</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema carga un mensaje de error&nbsp;Se ha producido un error al enviar el correo electr&oacute;nico. ya que el sistema de recuperacion de contrase&ntilde;a esta deshabilitado</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite><testsuite id="57" name="AMV-Empresa" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="61" name="Envio">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[25]]></externalid>
+	<fullexternalid><![CDATA[AMV-25]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la seccion de Envio del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de envio utilizando el link Envio&nbsp;en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina Envios</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/Envio</li>
+	<li>Titulo Envio</li>
+	<li>Seccion Envios y Devoluciones</li>
+	<li>subtitulo&nbsp;Env&iacute;o del paquete</li>
+	<li>Informacion de medio de envio y formas de pago</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="63" name="Aviso_legal">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<fullexternalid><![CDATA[AMV-26]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validacion de la pagina Aviso Legal</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de aviso legal&nbsp;utilizando el link Aviso Legal&nbsp;en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina Aviso Legal</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/Aviso Legal</li>
+	<li>Titulo Aviso Legal</li>
+	<li>Seccion Legal</li>
+	<li>Subtitulo Creditos</li>
+	<li>Informacion del software con el cual se creo la tienda</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="65" name="Terminos_Condiciones">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<fullexternalid><![CDATA[AMV-27]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Valida la pagina Terminos y condiciones</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de terminos y condiciones utilizando el link Terminos y Condiciones en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina Terminos y Condiciones</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/Terminos y Condiciones</li>
+	<li>Titulos Terminos y Condiciones</li>
+	<li>La lista de Terminos y Condiciones del sitio</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="67" name="Sobre_Nosotros">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<fullexternalid><![CDATA[AMV-28]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina Sobre Nosotros</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina Sobre Nosotros utilizando el link Sobre Nosotros en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina Sobre Nosotros</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/Sobre Nosotros</li>
+	<li>Titulo Sobre Nosotros</li>
+	<li>Informacion de la empresa</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="69" name="Pago_Seguro">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<fullexternalid><![CDATA[AMV-29]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina Pago Seguro del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Pago Seguro utilizando el link Pago Seguro en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina Pago Seguro</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/Pago Seguro</li>
+	<li>Titulo Pago Seguro</li>
+	<li>Informacion del sistema de seguridad del sitio y de los medios de pago permitidos</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="71" name="Contacto">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<fullexternalid><![CDATA[AMV-30]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de Contacte con Nosotros del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Contacte con nosotros utilizando el link Contacte con Nosotros en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina contacte con nosotros</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Seccion informacion de la tienda
+	<ul>
+		<li>Ubicacion</li>
+		<li>Correo de contacto</li>
+	</ul>
+	</li>
+	<li>Seccion contacte con nosotros
+	<ul>
+		<li>Selector de asunto</li>
+		<li>Correo del usuario</li>
+		<li>Ingreso de Archivo adjunto</li>
+		<li>Mensaje del usuario</li>
+		<li>Boton enviar</li>
+	</ul>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario ingresa un correo y hace click en enviar</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema muestra el mensaje de error&nbsp;El mensaje no puede estar en blanco.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El&nbsp;usuario ingresa un mensaje</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>Si el correo no cumple con el formato de correo usuario@server.dominio el mensaje de error&nbsp;Direcci&oacute;n de correo electr&oacute;nico no v&aacute;lida. aparece en pantalla</li>
+	<li>Si el correo cumple con el formato de correo el mensaje&nbsp;Su mensaje ha sido enviado a nuestro equipo. aparecera en pantalla</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="73" name="Mapa">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<fullexternalid><![CDATA[AMV-31]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina Mapa del Sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Mapa del Sitio utilizando el link Mapa del Sitio en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina Mapa del Sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Titulo Mapa del sitio</li>
+	<li>Links a todas las paginas principales del sitio, menus y subcategorias:
+	<ul>
+		<li>Nuestras Ofertas
+		<ul>
+			<li>Novedades</li>
+			<li>Marcas
+			<ul>
+				<li>Artesanias MarVal</li>
+			</ul>
+			</li>
+			<li>Proveedores</li>
+		</ul>
+		</li>
+		<li>Categorias
+		<ul>
+			<li>Inicio</li>
+			<li>Figuras de Madera
+			<ul>
+				<li>Figuras colgantes</li>
+				<li>Figuras de pared</li>
+				<li>Figuras de mesa</li>
+			</ul>
+			</li>
+			<li>Cuadros y Pinturas
+			<ul>
+				<li>Mosaicos</li>
+				<li>Perchas</li>
+				<li>Pinturas</li>
+			</ul>
+			</li>
+			<li>Otros</li>
+		</ul>
+		</li>
+		<li>Su cuenta
+		<ul>
+			<li>Iniciar sesi&oacute;n</li>
+			<li>Crear nueva cuenta</li>
+		</ul>
+		</li>
+		<li>Paginas
+		<ul>
+			<li>Env&iacute;o</li>
+			<li>Aviso legal</li>
+			<li>T&eacute;rminos y condiciones</li>
+			<li>Sobre nosotros</li>
+			<li>Pago seguro</li>
+			<li>Nuestras tiendas</li>
+			<li>Contacte con nosotros</li>
+			<li>Mapa del sitio</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="media"><notes><![CDATA[
+nivel de criticidad media
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="75" name="Tiendas">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[32]]></externalid>
+	<fullexternalid><![CDATA[AMV-32]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>El usuario valida la pagina de Tiendas del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Tiendas utilizando el link Tiendas en la seccion Nuestra Empresa del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina Tiendas del sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Titulo Nuestras Tiendas</li>
+	<li>Lista de Tiendas
+	<ul>
+		<li>Imagen de Tienda</li>
+		<li>Informacion de tienda
+		<ul>
+			<li>Nombre</li>
+			<li>Ubicacion</li>
+			<li>Horario de atencion</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite><testsuite id="59" name="AMV-SuCuenta" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="77" name="Informacion_Personal">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[33]]></externalid>
+	<fullexternalid><![CDATA[AMV-33]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de Informacion personal de la cuenta de usuario</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar conectado como usuario al sitio de la tienda</p>
+
+<p>-Debe ingresar a la pagina de Informacion Personal utilizando el link Informacion Personal en la seccion Su Cuenta del footer del sitio o desde el boton Informacion en&nbsp;la pagina Mi Cuenta</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina de Informacion personal</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/Su cuenta</li>
+	<li>Titulo Sus Datos Personales</li>
+	<li>Formulario de Datos Personales con informacion previamente ingresada
+	<ul>
+		<li>Selector Genero del usuario</li>
+		<li>Ingreso Nombre</li>
+		<li>Ingreso Apellido</li>
+		<li>Ingreso Correo</li>
+		<li>Ingreso Contrase&ntilde;a</li>
+		<li>Ingreso Nueva Contrase&ntilde;a</li>
+		<li>Ingreso Fecha de Nacimiento</li>
+		<li>Opcion Oferta de Socio</li>
+		<li>Opcion Notificaciones de Tienda</li>
+		<li>Boton Guardar</li>
+	</ul>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>El usuario cambia alguno de los valores:</p>
+
+<ul>
+	<li>Genero</li>
+	<li>Nombre</li>
+	<li>Apellido</li>
+	<li>Correo</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>El sistema cargara una notificacion de Completa este Campo debajo del Ingreso Contrase&ntilde;a</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>El usuario cambia alguno de los valores, ingresando una contrase&ntilde;a</p>
+]]></actions>
+	<expectedresults><![CDATA[<ul>
+	<li>Si la contrase&ntilde;a no es correcta el mensaje&nbsp;No se pudo actualizar su informaci&oacute;n, por favor, compruebe sus datos. aparecera en pantalla</li>
+	<li>Si la contrase&ntilde;a es correcta el mensaje&nbsp;Informaci&oacute;n actualizada correctamente. aparecera en pantalla</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Critico"><notes><![CDATA[
+nivel de criticidad muy alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="79" name="Pedidos">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[34]]></externalid>
+	<fullexternalid><![CDATA[AMV-34]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina Mis pedidos del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar conectado como usuario al sitio de la tienda</p>
+
+<p>-Debe ingresar a la pagina de Pedidos utilizando el link Pedidos en la seccion Su Cuenta del footer del sitio o desde el boton Historial y Detalles de mis Pedidos en&nbsp;la pagina Mi Cuenta</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina de Mis Pedidos</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/ Su Cuenta</li>
+	<li>Titulo Historial de Pedidos</li>
+	<li>Lista de los pedidos realizados(No deben existir por que la funcionalidad del carrito esta deshabilitada)</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="81" name="Facturas">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[35]]></externalid>
+	<fullexternalid><![CDATA[AMV-35]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de Facturas por Abono del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar conectado como usuario al sitio de la tienda</p>
+
+<p>-Debe ingresar a la pagina de Facturas por Abono utilizando el link Facturas por Abono en la seccion Su Cuenta del footer del sitio o desde el boton Facturas por Abono&nbsp;en&nbsp;la pagina Mi Cuenta</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida los componentes de la pagina Facturas por Abono</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Ruta Inicio/ Su Cuenta</li>
+	<li>Titulo Facturas por Abono</li>
+	<li>Lista de Facturas recibidas, en el caso de no tener ninguna el mensaje&nbsp;No ha recibido ninguna factura por abono. aparecera en pantalla</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="83" name="Direcciones">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[36]]></externalid>
+	<fullexternalid><![CDATA[AMV-36]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de direcciones del usuario en el sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe estar conectado como usuario al sitio de la tienda</p>
+
+<p>-Debe ingresar a la pagina de Direcciones utilizando el link Direcciones en la seccion Su Cuenta del footer del sitio,&nbsp;desde el boton Direcciones&nbsp;en&nbsp;la pagina Mi Cuenta o desde el boton A&ntilde;adir Primera Direccion en la pagina Mi Cuenta</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina de&nbsp;Direcciones</p>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Si no existen direcciones, el boton Direcciones en la pagina mi cuenta aparecera como A&ntilde;adir Primera Direccion, y el link Direcciones del footer Su Cuenta redirigira a la pagina de registro Nueva Direccion</li>
+	<li>Si existen direcciones, el boton en la pagina mi cuenta aparecera como Direcciones y al utilizarlo, la pagina se redirigira a la pagina de Direcciones.</li>
+	<li>La pagina de Direcciones contiene lo siguiente:
+	<ul>
+		<li>Ruta Inicio/ Su Cuenta</li>
+		<li>Titulo Sus Direcciones</li>
+		<li>Lista de Direcciones registradas
+		<ul>
+			<li>Alias de la direccion (Opcional)</li>
+			<li>Nombre del Usuario</li>
+			<li>Apellido del Usuario</li>
+			<li>Empresa&nbsp;(Opcional)</li>
+			<li>Numero de IVA&nbsp;(Opcional)</li>
+			<li>Direccion</li>
+			<li>Direccion Complementaria(Opcional)</li>
+			<li>Codigo Postal / ZIP</li>
+			<li>Ciudad</li>
+			<li>Pais</li>
+			<li>Telefono(Opcional)</li>
+			<li>Opcion Actualizar Datos</li>
+			<li>Opcion Eliminar Direccion</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite><testsuite id="60" name="AMV-FooterProductos" >
+<node_order><![CDATA[7]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="85" name="Ofertas">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<fullexternalid><![CDATA[AMV-37]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de Ofertas&nbsp;de productos del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Ofertas utilizando el link Ofertas en la seccion Productos del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina de Ofertas del sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Titulo Ofertas</li>
+	<li>Galeria de productos en oferta</li>
+	<li>Filtro por menu</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="87" name="Novedades">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<fullexternalid><![CDATA[AMV-38]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de novedades del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Novedades utilizando el link Novedades en la seccion Productos del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina de Novedades del sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Titulo Novedades</li>
+	<li>Galeria de productos nuevos</li>
+	<li>Filtro por menu</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+
+<testcase internalid="89" name="Lo_mas_vendido">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<fullexternalid><![CDATA[AMV-39]]></fullexternalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Se valida la pagina de Lo mas Vendido del sitio</p>
+]]></summary>
+	<preconditions><![CDATA[<p>-Acceso a localhost/ArtMarVal</p>
+
+<p>-Buscador: Microsoft Edge</p>
+
+<p>-Debe ingresar a la pagina de Lo mas Vendido utilizando el link Lo mas Vendido en la seccion Productos del footer del sitio</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>El usuario valida la pagina de Lo mas Vendido del sitio</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>La pagina se compone de lo siguiente:</p>
+
+<ul>
+	<li>Titulo Los Mas Vendidos</li>
+	<li>Galeria de productos mas vendidos</li>
+	<li>Filtro por menu</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<keywords><keyword name="Alto"><notes><![CDATA[
+nivel de criticidad alta
+]]></notes></keyword>
+</keywords></testcase>
+</testsuite></testsuite>
